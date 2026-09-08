@@ -12,8 +12,7 @@ body {
 
 /* Exercício 1 - nova cor do cabeçalho */
 .cabecalho {
-    background-color:#000566;
-    color: white;
+    background-color:#5D0808;
     text-align: center;
     padding: 30px;
 }
@@ -22,7 +21,7 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #5D0808;
     border-radius: 8px;
 }
 

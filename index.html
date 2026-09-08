@@ -1,74 +1,56 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-}
+<head>
+    <meta charset="UTF-8">
+    <title>Meu primeiro CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
 
-/* Exercício 1 - nova cor do cabeçalho */
-.cabecalho {
-    background-color: #8e44ad;
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
+<body>
 
-.conteudo {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-}
+    <header class="cabecalho">
+        <h1>Bem-vindo ao CSS</h1>
+    </header>
 
-.destaque {
-    background-color: #ffeaa7;
-    padding: 10px;
-    border-left: 4px solid #f39c12;
-}
+    <main class="conteudo">
 
-/* Exercício 2 - Flexbox com 4 cartões */
-.cartoes {
-    display: flex;
-    gap: 15px;
-    margin-top: 20px;
-}
+        <p class="destaque">
+            Este parágrafo usa uma classe.
+        </p>
 
-.cartao {
-    flex: 1;
-    background-color: #e74c3c;
-    color: white;
-    padding: 40px;
-    text-align: center;
-    border-radius: 6px;
-}
+        <p>
+            Este é um parágrafo comum.
+        </p>
 
-/* Exercício 3 - botão */
-.botao {
-    display: inline-block;
-    background-color: #2980b9;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 6px;
-    text-decoration: none;
-    margin-top: 20px;
-}
+        <!-- Exercício 2: quatro cartões -->
+        <div class="cartoes">
 
-/* Efeito ao passar o mouse */
-.botao:hover {
-    background-color: #1c5980;
-}
+            <div class="cartao">
+                Cartão 1
+            </div>
 
-/* Exercício 5 - centralização */
-.centralizado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+            <div class="cartao">
+                Cartão 2
+            </div>
+
+            <div class="cartao">
+                Cartão 3
+            </div>
+
+            <div class="cartao">
+                Cartão 4
+            </div>
+
+        </div>
+
+        <!-- Exercício 3: botão -->
+        <a href="#" class="botao">
+            Saiba mais
+        </a>
+
+    </main>
+
+</body>
+
+</html>

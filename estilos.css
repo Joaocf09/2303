@@ -1,48 +1,51 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
-}
+    <header class="cabecalho">
+        <h1>Minha Página</h1>
+        <p>Exercícios de CSS e Flexbox</p>
+    </header>
 
-.cabecalho {
-  background-color: #0000FF;
-  color: blue;
-  text-align: center;
-  padding: 30px;
-}
+    <main class="conteudo">
 
-.conteudo {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-}
+        <div class="destaque">
+            <p>Este é um texto em destaque.</p>
+        </div>
 
-.destaque {
-  background-color: #ffeaa7;
-  padding: 10px;
-  border-left: 4px solid #f39c12;
-}
+        <div class="cartoes">
+            <div class="cartao">
+                <h2>Cartão 1</h2>
+                <p>Conteúdo do primeiro cartão.</p>
+            </div>
 
-.cartoes {
-  display: flex;
-  gap: 15px;
-  margin-top: 20px;
-}
+            <div class="cartao">
+                <h2>Cartão 2</h2>
+                <p>Conteúdo do segundo cartão.</p>
+            </div>
 
-.cartao {
-  flex: 1;
-  background-color: #3498db;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  border-radius: 6px;
-}
+            <div class="cartao">
+                <h2>Cartão 3</h2>
+                <p>Conteúdo do terceiro cartão.</p>
+            </div>
+
+            <div class="cartao">
+                <h2>Cartão 4</h2>
+                <p>Conteúdo do quarto cartão.</p>
+            </div>
+        </div>
+
+        <br>
+
+        <a href="#" class="botao">Saiba mais</a>
+
+    </main>
+
+</body>
+</html>

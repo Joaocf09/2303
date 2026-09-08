@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 
-/* Cabeçalho */
+/* EXERCÍCIO 1 - Alteração das cores */
 .cabecalho {
     background-color: #8e44ad;
     color: white;
@@ -19,7 +19,6 @@ body {
     padding: 30px;
 }
 
-/* Conteúdo */
 .conteudo {
     max-width: 800px;
     margin: 20px auto;
@@ -28,14 +27,13 @@ body {
     border-radius: 8px;
 }
 
-/* Destaque */
 .destaque {
     background-color: #ffeaa7;
     padding: 10px;
     border-left: 4px solid #f39c12;
 }
 
-/* Cartões */
+/* EXERCÍCIO 2 - Quatro cartões usando Flexbox */
 .cartoes {
     display: flex;
     gap: 15px;
@@ -51,7 +49,7 @@ body {
     border-radius: 6px;
 }
 
-/* Botão */
+/* EXERCÍCIO 3 - Classe para botão */
 .botao {
     display: inline-block;
     background-color: #e67e22;
@@ -59,13 +57,20 @@ body {
     padding: 10px 20px;
     border-radius: 6px;
     text-decoration: none;
+    margin-top: 20px;
 }
 
 .botao:hover {
     background-color: #d35400;
 }
 
-/* Centralização */
+/* EXERCÍCIO 4 - Box Model */
+.cartao {
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+/* EXERCÍCIO 5 - Centralização */
 .centralizado {
     display: flex;
     justify-content: center;

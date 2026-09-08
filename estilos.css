@@ -6,13 +6,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-color: #AAAEFD;
+    background-color: #000566;
     color: #333;
 }
 
 /* Exercício 1 - nova cor do cabeçalho */
 .cabecalho {
-    background-color: #8e44ad;
+    background-color:#000566;
     color: white;
     text-align: center;
     padding: 30px;
@@ -27,7 +27,7 @@ body {
 }
 
 .destaque {
-    background-color: #0814FB;
+    background-color: #6168EF;
     padding: 10px;
     border-left: 4px solid #f39c12;
 }
